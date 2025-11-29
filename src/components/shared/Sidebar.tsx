@@ -83,7 +83,7 @@ const sidebarLinks: SidebarLinksType = {
 function Sidebar() {
   return (
     <aside className='flex flex-col gap-4 px-4 py-4 w-80 h-svh'>
-      <div className='flex gap-4 w-full'>
+      <div className='flex gap-4 w-full h-16'>
         <Avatar className='size-14'>
           <AvatarImage
             className='object-cover aspect-square'

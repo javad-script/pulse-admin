@@ -28,8 +28,8 @@ export default function Header() {
     return null;
   }
   return (
-    <header className='top-0 left-0 sticky justify-between items-center grid grid-cols-3 grid-rows-1 bg-background w-full h-16'>
-      <div className='flex flex-col justify-center items-start'>
+    <header className='top-0 left-0 z-20 sticky justify-between items-center grid grid-cols-3 grid-rows-1 bg-background/20 backdrop-blur-md border-border border-b w-full h-16'>
+      <div className='flex flex-col justify-center items-start h-16'>
         <h2 className='font-medium text-foreground/80 text-lg capitalize leading-relaxed'>
           {breadcrumbItems[1] || 'dashboard'}
         </h2>

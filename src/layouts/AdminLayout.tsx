@@ -9,12 +9,11 @@ export default function AdminLayout() {
       <Sidebar />
       <div className='box-border flex flex-col flex-1 bg-background [&::-webkit-scrollbar-thumb]:bg-muted [&::-webkit-scrollbar-track]:bg-muted-foreground/70 mt-4 px-4 border-border border-in border-t border-l [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:rounded-full rounded-tl-2xl [&::-webkit-scrollbar]:w-2 h-[100svh-10px] overflow-y-auto'>
         <Header />
-        <main className=''>
+        <main className='py-4'>
           <Suspense fallback={'loading'}>
             <Outlet />
           </Suspense>
         </main>
-        {/* footer */}
       </div>
     </div>
   );
